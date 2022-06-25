@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+}
+.windows-page-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.windows-page-desktop-container{
+  display: flex;
+  height: 95%;
+  width: 100%;
+  background-image: url('https://d500.epimg.net/cincodias/imagenes/2019/07/22/lifestyle/1563781309_220528_1563781396_noticia_normal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.windows-page-menu-bar-container{
+  display: flex;
+  align-items: center;
+  height: 5%;
+  background-color: #152728;
+  z-index: 2;
+}
+
+.windows-page-menu-button-item{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 4vmax;
+  height: 100%;
+  padding: 0.5vmax;
+  &:hover{
+    opacity:0.5;
+    background-color:#152728;
+    svg{
+      fill:#00A8E8;
+    }
+  }
+}
+
+.buttom-menu-icon{
+  widows: 2vmax;
+  height: 2vmax;
+}
+
+.windows-page-lateral-meanu{
+  display:flex;
+  background-color:#151515;
+  position: absolute;
+  height: 60vh;
+  width: 33vw;
+  left: 0;
+  top:35vh;
+  color:white;
+  
+}
