@@ -14,7 +14,6 @@ export default function MenuBar() {
   }, []);
 
   const closeMenu = (event) => {
-    console.log(event);
     if (event.path[0].className === "windows-page-desktop-container") {
       setVisibleMenuWindows(false);
     }
