@@ -59,3 +59,25 @@ body{
   color:white;
   
 }
+
+.windows-menu-item-container{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height:5vmax;
+  box-sizing: border-box;
+}
+.windows-menu-item-icon{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  width: 20%;
+  height: 100%;
+}
+
+.windows-menu-item-name{
+  display:flex;
+  align-items:center;
+  width: 80%;
+  height: 100%;
+}
